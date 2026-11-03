@@ -25,18 +25,30 @@
 .laptop-notch{width:90px;height:5px;background:#334155;border-radius:0 0 6px 6px}
 .stats{background:#fff;border-bottom:1px solid var(--line)}.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);padding:25px 0;gap:15px}.stat{display:flex;align-items:center;justify-content:center;gap:12px;border-right:1px solid var(--line)}.stat:last-child{border:0}.stat-icon{width:39px;height:39px;border-radius:12px;background:#f8f2e5;color:#8d6b2d;display:grid;place-items:center;font-size:18px}.stat strong{display:block;color:var(--navy);font-size:15px}.stat small{color:var(--muted);font-size:11px}
 section{padding:84px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 42px}.kicker{font-size:11px;letter-spacing:.16em;font-weight:850;color:#9a7838;text-transform:uppercase}.section-head h2{font-size:clamp(29px,3.5vw,42px);letter-spacing:-.045em;line-height:1.17;color:var(--navy);margin:12px 0}.section-head p{color:var(--muted);margin:0;font-size:15px}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{border:1px solid var(--line);border-radius:18px;padding:25px;background:#fff;transition:.2s}.feature:hover{box-shadow:var(--shadow);transform:translateY(-3px);border-color:#d9c28d}.feature-icon{width:48px;height:48px;display:grid;place-items:center;background:#f8f2e5;border-radius:14px;color:#856329;font-size:22px;margin-bottom:19px}.feature h3{font-size:17px;color:var(--navy);margin:0 0 8px}.feature p{font-size:13px;color:var(--muted);margin:0;line-height:1.75}
-.scroll-stopper{background:linear-gradient(135deg,#fbf6eb,#f3e8d2);border:1px solid #e3d1a8;border-radius:20px;padding:36px;margin:40px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
-.stopper-col h3{color:var(--navy);font-size:20px;margin:0 0 10px}
-.stopper-col p{color:#525f75;font-size:13px;margin:0 0 15px;line-height:1.6}
-.stopper-list{display:grid;gap:8px;font-size:13px;color:#334155}
+.compare-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:40px 0 0;align-items:stretch}
+.compare-card{border:1px solid var(--line);border-radius:18px;padding:28px;background:#fff;transition:.2s;display:flex;flex-direction:column}
+.compare-card:hover{box-shadow:var(--shadow);transform:translateY(-3px);border-color:#d9c28d}
+.compare-tag{align-self:flex-start;font-size:11px;font-weight:850;letter-spacing:.13em;color:#94702f;background:#f8f2e5;border-radius:99px;padding:6px 12px;margin-bottom:18px;text-transform:uppercase}
+.compare-block{border-radius:14px;padding:18px 20px}
+.compare-block+.compare-block{margin-top:14px}
+.compare-block.bad{background:#fdf4f4;border:1px solid #f1d4d7}
+.compare-block.good{background:#f3faf6;border:1px solid #cfe8da}
+.compare-block h3{color:var(--navy);font-size:16px;margin:0 0 8px;line-height:1.4}
+.compare-block p{color:var(--muted);font-size:13px;margin:0;line-height:1.75}
+.stopper-list{display:grid;gap:8px;font-size:13px;color:#334155;margin-top:12px}
 .stopper-list div{display:flex;align-items:center;gap:8px}
+.stopper-list b{color:var(--green)}
+.price-fact{background:linear-gradient(160deg,#fbf6eb,#fff 70%);justify-content:center}
+.price-fact .old-price{display:inline-block;text-decoration:line-through;color:var(--red);font-weight:800;font-size:22px;letter-spacing:-.02em;margin:4px 0 2px}
+.price-fact p{color:var(--muted);font-size:14px;margin:0 0 6px;line-height:1.75}
+.price-fact .fact-hook{margin-top:16px;padding-top:16px;border-top:1px solid #eadfc4;font-size:16px;font-weight:750;color:var(--navy);line-height:1.55}
 .practice{background:var(--paper)}.practice-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px;align-items:start}.practice-intro h2{font-size:clamp(30px,4vw,43px);line-height:1.13;letter-spacing:-.045em;color:var(--navy);margin:12px 0 17px}.practice-intro p{color:var(--muted);font-size:14px}.type-list{display:grid;gap:14px;margin-top:25px}.type-item{display:flex;gap:13px;align-items:flex-start}.type-num{width:32px;height:32px;flex-shrink:0;border-radius:10px;background:#eaeff6;color:var(--navy);display:grid;place-items:center;font-weight:850;font-size:12px}.type-item strong{display:block;font-size:13px;color:var(--navy)}.type-item small{color:var(--muted);font-size:12px}.demo-card{background:white;border:1px solid #e0e5ed;border-radius:22px;padding:25px;box-shadow:0 20px 60px #0b17300d}.demo-top{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding-bottom:17px}.demo-top h3{margin:0;color:var(--navy);font-size:16px}.demo-top p{margin:3px 0 0;color:var(--muted);font-size:11px}.timer{font-variant-numeric:tabular-nums;background:#f5f0e5;color:#7f6026;border-radius:10px;padding:8px 11px;font-weight:850;font-size:13px}.demo-controls{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.pill{border:1px solid #dfe4ec;border-radius:99px;background:#fff;padding:8px 12px;font-size:12px;font-weight:750;color:#657188;cursor:pointer}.pill.active{background:var(--navy);color:#fff;border-color:var(--navy)}.question-meta{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:11px;margin-bottom:10px}.question-type{color:#8a682a;font-weight:800}.question-text{font-size:17px;font-weight:780;line-height:1.55;color:var(--navy);margin:0 0 17px}.question-hint{font-size:12px;color:var(--muted);margin:-8px 0 15px}.answers{display:grid;gap:9px}.answer{display:flex;align-items:flex-start;gap:11px;border:1px solid #e1e6ee;background:white;padding:12px 13px;border-radius:12px;cursor:pointer;text-align:left;color:#344158;font-size:13px;line-height:1.5;transition:.15s;width:100%}.answer:hover{border-color:#c5a45f;background:#fffdf8}.answer.selected{border-color:#bd9749;background:#fbf6e9;color:var(--navy);box-shadow:inset 0 0 0 1px #bd9749}.answer.correct{border-color:#72c5a0;background:#effaf4}.answer.wrong{border-color:#e6a0a5;background:#fff3f3}.answer-marker{width:25px;height:25px;flex-shrink:0;display:grid;place-items:center;border:1px solid #dbe1e9;border-radius:8px;font-size:10px;font-weight:850}.answer.selected .answer-marker{background:var(--gold);border-color:var(--gold);color:#17243a}.demo-feedback{margin-top:13px;border-radius:12px;padding:12px 14px;background:#f0f7f3;color:#276448;font-size:12px;line-height:1.65}.demo-feedback.bad{background:#fff3f3;color:#9b303b}.demo-feedback strong{display:block;margin-bottom:3px}.demo-bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:20px;padding-top:17px;border-top:1px solid var(--line)}.demo-bottom .btn{padding:10px 14px;font-size:12px}.demo-bottom .subtle{font-size:11px;color:var(--muted)}.demo-results{text-align:center;padding:24px 5px}.score-ring{width:104px;height:104px;margin:0 auto 15px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--gold) var(--score,0%),#edf0f5 0);position:relative}.score-ring:before{content:"";position:absolute;inset:8px;background:#fff;border-radius:50%}.score-ring strong{position:relative;font-size:25px;color:var(--navy)}.demo-results h3{color:var(--navy);margin:5px 0}.demo-results p{font-size:13px;color:var(--muted)}.result-actions{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-top:18px}
 .how-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:steps}.step{padding:24px;border-top:2px solid var(--gold);background:#fbfcfe;border-radius:0 0 16px 16px}.step-num{font-size:12px;letter-spacing:.1em;color:#987637;font-weight:850}.step h3{margin:9px 0 7px;color:var(--navy);font-size:17px}.step p{margin:0;color:var(--muted);font-size:13px}
 .pricing{background:var(--navy);color:white;position:relative;overflow:hidden}.pricing:after{content:"";position:absolute;width:460px;height:460px;border:1px solid #d8b56a22;border-radius:50%;right:-180px;bottom:-300px;box-shadow:0 0 0 55px #d8b56a08,0 0 0 110px #d8b56a05}.pricing-grid{display:grid;grid-template-columns:1fr .8fr;gap:50px;align-items:center;position:relative;z-index:1}.pricing .kicker{color:var(--gold2)}.pricing h2{font-size:clamp(31px,4vw,45px);line-height:1.14;letter-spacing:-.04em;margin:12px 0 15px}.pricing-copy{color:#c6d1e0;font-size:14px;max-width:540px}.benefits{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.benefit{display:flex;gap:9px;font-size:12px;color:#e0e7f1}.benefit b{color:var(--gold2)}.price-card{background:white;color:var(--ink);border-radius:22px;padding:29px;box-shadow:0 25px 70px #0003}.price-label{font-size:11px;font-weight:850;letter-spacing:.13em;color:#94702f}.price{font-size:43px;letter-spacing:-.05em;font-weight:900;color:var(--navy);margin:8px 0 0}.price-sub{font-size:12px;color:var(--muted)}.price-line{border:0;border-top:1px solid var(--line);margin:20px 0}.price-card ul{list-style:none;padding:0;margin:0 0 23px;display:grid;gap:10px;font-size:13px;color:#46536a}.price-card li:before{content:"✓";color:#94702f;font-weight:900;margin-right:9px}.price-card .btn{width:100%}.fineprint{font-size:10px;text-align:center;color:#7b8596;margin:12px 0 0}
 .faq-list{max-width:790px;margin:auto;display:grid;gap:10px}.faq-list details{border:1px solid var(--line);border-radius:13px;padding:16px 19px;background:white}.faq-list summary{cursor:pointer;font-weight:750;color:var(--navy);font-size:14px}.faq-list details p{color:var(--muted);font-size:13px;margin:12px 0 0}.final-cta{padding:0 0 84px}.cta-panel{background:linear-gradient(120deg,#f8f2e5,#fff);border:1px solid #e7d9b6;border-radius:22px;padding:36px;display:flex;align-items:center;justify-content:space-between;gap:25px}.cta-panel h2{color:var(--navy);font-size:27px;line-height:1.2;margin:0 0 8px;letter-spacing:-.035em}.cta-panel p{color:var(--muted);font-size:13px;margin:0}.cta-panel .btn{flex-shrink:0}footer{background:#071225;color:#aab6c9;padding:30px 0;font-size:11px}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer-brand{color:#fff;font-weight:850;font-size:16px}.footer-brand span{color:var(--gold)}.disclaimer{color:#7f8ba0;max-width:610px;margin-top:7px}
 .toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,20px);background:#0b1730;color:#fff;padding:12px 18px;border-radius:12px;box-shadow:var(--shadow);font-size:13px;opacity:0;pointer-events:none;transition:.25s;z-index:50}.toast.show{opacity:1;transform:translate(-50%,0)}
-@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:55px}.hero-copy{max-width:650px}.hero-visual{max-width:570px;width:100%;margin:auto}.hero{padding:58px 0 70px}.practice-layout,.pricing-grid{grid-template-columns:1fr;gap:32px}.practice-intro{max-width:650px}.pricing-grid{max-width:720px;margin:auto}.feature-grid{grid-template-columns:repeat(2,1fr)}.stats-grid{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border:0}.stat{padding:8px 0}.how-grid{gap:12px}.scroll-stopper{grid-template-columns:1fr}.navlinks{gap:16px}}
-@media(max-width:640px){.wrap{width:min(100% - 30px,1160px)}.nav{height:68px}.brand{font-size:20px}.brand-mark{width:38px;height:38px}.nav>.btn{display:none}.hero{padding:48px 0 60px}.hero h1{font-size:36px}.hero-copy{font-size:15px}.stats-grid{padding:18px 0;gap:10px}.stat{justify-content:flex-start}.stat-icon{width:33px;height:33px}.stat strong{font-size:13px}.stat small{font-size:10px}.section-head{margin-bottom:28px}section{padding:62px 0}.feature-grid,.how-grid{grid-template-columns:1fr}.feature{padding:21px}.practice-layout{gap:28px}.demo-card{padding:17px}.demo-top{align-items:flex-start}.question-text{font-size:15px}.demo-bottom{flex-wrap:wrap}.demo-bottom .subtle{order:3;width:100%}.benefits{grid-template-columns:1fr}.price-card{padding:23px}.cta-panel{padding:25px;align-items:stretch;flex-direction:column}.cta-panel .btn{width:100%}.footer-inner{align-items:flex-start;flex-direction:column}}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:55px}.hero-copy{max-width:650px}.hero-visual{max-width:570px;width:100%;margin:auto}.hero{padding:58px 0 70px}.practice-layout,.pricing-grid{grid-template-columns:1fr;gap:32px}.practice-intro{max-width:650px}.pricing-grid{max-width:720px;margin:auto}.feature-grid{grid-template-columns:repeat(2,1fr)}.stats-grid{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border:0}.stat{padding:8px 0}.how-grid{gap:12px}.compare-row{grid-template-columns:1fr}.navlinks{gap:16px}}
+@media(max-width:640px){.wrap{width:min(100% - 30px,1160px)}.nav{height:68px}.brand{font-size:20px}.brand-mark{width:38px;height:38px}.nav>.btn{display:none}.hero{padding:48px 0 60px}.hero h1{font-size:36px}.hero-copy{font-size:15px}.stats-grid{padding:18px 0;gap:10px}.stat{justify-content:flex-start}.stat-icon{width:33px;height:33px}.stat strong{font-size:13px}.stat small{font-size:10px}.section-head{margin-bottom:28px}section{padding:62px 0}.feature-grid,.how-grid{grid-template-columns:1fr}.feature{padding:21px}.compare-card{padding:22px}.practice-layout{gap:28px}.demo-card{padding:17px}.demo-top{align-items:flex-start}.question-text{font-size:15px}.demo-bottom{flex-wrap:wrap}.demo-bottom .subtle{order:3;width:100%}.benefits{grid-template-columns:1fr}.price-card{padding:23px}.cta-panel{padding:25px;align-items:stretch;flex-direction:column}.cta-panel .btn{width:100%}.footer-inner{align-items:flex-start;flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 </style>
 </head>
@@ -100,27 +112,31 @@ section{padding:84px 0}.section-head{text-align:center;max-width:700px;margin:0 
 <article class="feature"><div class="feature-icon">◇</div><h3>Bangun Mental & Percaya Diri</h3><p>Hilangkan rasa cemas anak menghadapi layar komputer ujian dengan latihan rutin di rumah.</p></article>
 </div>
 
-<div class="scroll-stopper">
-<div class="stopper-col">
+<div class="compare-row">
+<article class="compare-card">
+<span class="compare-tag">Perbandingan Cara Belajar</span>
+<div class="compare-block bad">
 <h3>❌ Belajar Tanpa Simulasi Terarah</h3>
 <p>Hanya mengandalkan buku latihan biasa tanpa batasan waktu dan simulasi komputer. Saat hari H ujian CBT, anak rentan panik menghadapi timer berjalan dan model soal wacana yang kompleks.</p>
 </div>
-<div class="stopper-col">
+<div class="compare-block good">
 <h3>✅ Dengan SmartDrill (CBT + Worksheet PDF)</h3>
 <p>Kombinasi sempurna simulasi CBT interaktif berbasis waktu dan worksheet cetak terstruktur untuk membangun kesiapan mental dan penguasaan materi secara menyeluruh.</p>
 <div class="stopper-list">
-<div>✓ Bebas panik saat ujian komputer</div>
-<div>✓ Terbiasa tipe soal kompleks (MCMA)</div>
-<div>✓ Latihan offline & online terlengkap</div>
+<div><b>✓</b> Bebas panik saat ujian komputer</div>
+<div><b>✓</b> Terbiasa tipe soal kompleks (MCMA)</div>
+<div><b>✓</b> Latihan offline &amp; online terlengkap</div>
 </div>
 </div>
+</article>
+<article class="compare-card price-fact">
+<span class="compare-tag">Fakta Biaya Platform Lain</span>
+<p>Platform lain mematok harga</p>
+<div class="old-price">Rp 150.000 s.d Rp 300.000</div>
+<p>per semester/6 bulan.</p>
+<div class="fact-hook">Bikin dompet jebol padahal materinya sama? Kenapa bayar mahal kalau ada yang jauh lebih efisien?</div>
+</article>
 </div>
-<div style="background:linear-gradient(135deg,#fffbeb,#fef3c7);border:2px dashed #f59e0b;border-radius:16px;padding:24px;margin:25px 0 0;text-align:center;box-shadow:0 10px 25px rgba(245,158,11,0.08);">
-  <span style="background:#fee2e2;color:#991b1b;font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;display:inline-block;margin-bottom:8px;letter-spacing:0.5px;">FAKTA BIAYA PLATFORM / BIMBEL LAIN</span>
-  <p style="font-size:15px;color:#334155;margin:0 0 8px;">Platform bimbel konvensional mematok harga <span style="text-decoration:line-through;color:#ef4444;font-weight:700;font-size:16px;">Rp 150.000 s.d Rp 300.000</span> per semester/6 bulan.</p>
-  <div style="font-size:16px;font-weight:700;color:var(--navy);">
-    Bikin dompet jebol padahal materinya sama? Kenapa bayar mahal kalau ada yang jauh lebih efisien?
-  </div>
 </div></section>
 
 <section class="practice" id="demo"><div class="wrap practice-layout">
@@ -167,7 +183,7 @@ section{padding:84px 0}.section-head{text-align:center;max-width:700px;margin:0 
 </div>
 <div class="price-card">
 <div class="price-label">PAKET DIGITAL SMARTDRILL</div>
-<div style="font-size:15px;color:#ef4444;text-decoration:line-through;font-weight:700;margin-top:8px;">Normal Rp 99.000</div>
+<div style="margin-top:10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap"><span style="font-size:13px;font-weight:800;color:#7a5a1f;letter-spacing:.06em">HARGA NORMAL</span><span style="font-size:36px;line-height:1.1;color:#ef4444;text-decoration:line-through;text-decoration-thickness:3px;font-weight:900;letter-spacing:-.03em;">Rp 99.000</span></div>
 <div class="price" style="font-size:24px;color:var(--navy);margin:6px 0;font-weight:900;">⚡ Harga Spesial Hari Ini</div>
 <div class="price-sub" style="line-height:1.5;">Sekali bayar · Akses penuh 10 bulan<br><strong style="color:#059669;">Cek harga spesial & amankan slot di Lynk.id</strong></div>
 <hr class="price-line">
