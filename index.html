@@ -275,7 +275,7 @@ function finish(){
  $('changeBtn').addEventListener('click',()=>{document.querySelector('.demo-controls').scrollIntoView({behavior:'smooth',block:'center'});toast('Pilih mata pelajaran atau tipe soal di atas.')});
 }
 document.querySelectorAll('[data-subject]').forEach(b=>b.addEventListener('click',()=>{subject=b.dataset.subject;index=0;answers={};render()}));
-document.querySelectorAll('[data-type]').forEach(b=>b.dataset.type===type));
+document.querySelectorAll('[data-type]').forEach(b=>b.addEventListener('click',()=>{type=b.dataset.type;index=0;answers={};render()}));
 $('prevBtn').addEventListener('click',()=>{if(index>0){index--;render()}});
 $('nextBtn').addEventListener('click',()=>{if(type==='tf'){const a=answers[key()]||{};if(Object.keys(a).length<current().statements.length){toast('Isi jawaban untuk setiap pernyataan terlebih dahulu.');return}}else if(!(answers[key()]||[]).length){toast('Pilih jawaban terlebih dahulu.');return}if(index<getQuestions().length-1){index++;render()}else finish()});
 $('menuBtn').addEventListener('click',()=>{const n=$('navlinks');const open=n.classList.toggle('open');$('menuBtn').setAttribute('aria-expanded',String(open));$('menuBtn').textContent=open?'×':'☰'});
