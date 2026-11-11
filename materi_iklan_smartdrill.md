@@ -2,7 +2,7 @@
 
 ## 1. STRATEGI / ANGLE UTAMA
 - **Angle 1 (Panic / Computer Shock):** Fokus pada ketakutan orang tua bahwa anak pintar di kertas bisa hancur nilainya karena kaget sistem CBT, timer berjalan, dan soal kompleks (MCMA / Benar-Salah).
-- **Angle 2 (Hemat vs Bimbel Mahal):** Kontras harga bimbel/platform lain (Rp 150rb-300rb) dengan SmartDrill (Sekali bayar akses 10 bulan penuh).
+- **Angle 2 (Hemat vs Bimbel Mahal):** Kontras harga bimbel/platform lain (Rp 150rb-300rb) dengan SmartDrill (Sekali bayar + update soal periodik).
 - **Angle 3 (Urgency Kelas 6 SD):** Waktu persiapan mepet, penentuan SMP favorit.
 
 ---
@@ -63,7 +63,7 @@
 > • Tipe soal lengkap: PG, MCMA, Benar/Salah
 > • Timer otomatis & Pembahasan instan
 > • 10 Worksheet PDF cetak offline
-> • **Akses aktif 10 bulan penuh (Sekali bayar!)**
+> • **Sekali bayar + update soal periodik (tanpa biaya bulanan!)**
 > 
 > Jangan pertaruhkan masa depan sekolah anak hanya karena kurang latihan simulasi.
 > 
