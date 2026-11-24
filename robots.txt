@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smart-edudigital.github.io/SmartDrill-Landing/sitemap.xml
